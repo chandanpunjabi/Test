@@ -1,0 +1,2104 @@
+/* Created by Vivek Rajput
+ * Date: 13 November 2013
+ * This css class commonly use to set component property.
+ */
+
+/*================================================= Common css start ====================================================================*/
+.topToolBarPanelBgCls{
+        background: #959595; /* Old browsers */
+        background: -moz-linear-gradient(top,  #959595 0%, #383838 50%, #232323 51%, #232323 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(50%,#383838), color-stop(51%,#232323), color-stop(100%,#232323)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#232323',GradientType=0 ); /* IE6-9 */
+        padding: 0px;
+        background:url('../images/title_bar_bg.png') repeat-x !important;
+        font-size:15px;
+}
+
+.topToolBarPanelBgCls .x-title{
+        width:45% !important;
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+        white-space: nowrap !important;
+}
+
+.topToolBarEventTitleLabelCls .x-innerhtml {
+        text-overflow: ellipsis !important;
+       /* width: 83% !important;*/
+        overflow: hidden !important;
+        white-space: nowrap !important;
+        font-size:1.2em !important;
+        font-weight:bold !important;
+        text-align:center !important;
+}
+
+.topToolBarEventStepLabelCls{
+        font-size:1.2em;
+        font-weight:bold;
+        margin-top:9px;
+        padding-left:1%;
+}
+
+.bottomBarButtonCls{
+        margin: 0 !important;
+        border-radius: 0px;
+        border-color: #000 !important;
+        border-top: 1px solid #777 !important; /*changed by Avin*/
+        padding: 0 !important;
+        /*changed by Avin*/
+        border-right:1px solid #000 !important;
+        border-left: 1px solid #555 !important;
+
+}
+
+.createNewEventsButtonCls{
+        background-image:url('../images/newButtonIcon.png');
+        width: 2.5em !important;
+        height: 3em !important;
+        background-repeat: no-repeat;
+}
+
+.eventsButtonCls{
+        background-image:url('../images/eventsButtonIcon.png');
+        background-repeat: no-repeat;
+        width: 3.5em !important;
+        height: 3em !important;
+}
+
+.settingsButtonCls{
+        background-image:url('../images/settingsButtonIcon.png');
+        background-repeat: no-repeat;
+        width: 4em !important;
+        height: 3em !important;
+}
+
+.backButtonCls{
+        background-image:url('../images/backButton.png');
+        background-repeat: no-repeat;
+}
+
+.feedbackButtonCls{
+        background-image:url('../images/feedback.png');
+        background-repeat: no-repeat;
+}
+
+.bodyBackgroundGradient{
+
+        margin:0 !important;
+        color:#fff;font-family:arial;text-shadow: 0px 1px 1px rgba(0, 0, 0, 1) !important;
+        /* IE10 Consumer Preview */
+        background-image: -ms-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* Mozilla Firefox */
+        background-image: -moz-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* Opera */
+        background-image: -o-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* Webkit (Safari/Chrome 10) */
+        background-image: -webkit-gradient(radial, center top, 0, center top, 487, color-stop(0, #68696D), color-stop(1, #262729)) !important;
+
+        /* Webkit (Chrome 11+) */
+        background-image: -webkit-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* W3C Markup, IE10 Release Preview */
+        background-image: radial-gradient(ellipse farthest-side at center top, #68696D 0%, #262729 70%) !important;
+
+        background: url('../images/bg.png') !important;
+        background-size: cover !important;
+}
+
+.border{
+        border: 1px solid #000 !important; /*changed by Avin*/
+        margin:10px 0;
+}
+
+.bottomBarButtonBgCls{
+        background: #45484d !important; /* Old browsers */
+        background: -moz-linear-gradient(top,  #45484d 0%, #282828 100%) !important; /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#282828)) !important; /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #45484d 0%,#282828 100%) !important; /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #45484d 0%,#282828 100%) !important; /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #45484d 0%,#282828 100%) !important; /* IE10+ */
+        background: linear-gradient(to bottom,  #45484d 0%,#282828 100%) !important; /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#282828',GradientType=0 ) !important; /* IE6-9 */
+
+}
+
+.bottomBarButtonBgCls:hover,.bottomBarButtonBgCls:active{
+        background: #85ba22 !important; /* Old browsers */
+        background: -moz-linear-gradient(top,  #85ba22 0%, #4f9116 100%) !important; /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85ba22), color-stop(100%,#4f9116)) !important; /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* IE10+ */
+        background: linear-gradient(to bottom,  #85ba22 0%,#4f9116 100%) !important; /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ba22', endColorstr='#4f9116',GradientType=0 ) !important; /* IE6-9 */
+
+}
+
+.buttonMainCls{
+        width:90%;
+        color: white !important;
+        font-size:15px;
+       /*Changed by Avin*/
+        background: #a0c84a !important; /* Old browsers */
+        background: -moz-linear-gradient(top,  #a0c84a 0%, #83b621 50%, #518e00 100%) !important; /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0c84a), color-stop(50%,#83b621), color-stop(100%,#518e00)) !important; /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important;/* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important; /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important; /* IE10+ */
+        background: linear-gradient(to bottom,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important; /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0c84a', endColorstr='#518e00',GradientType=0 ) !important; /* IE6-9 */
+}
+
+.buttonMainCls:hover,.buttonMainCls:active{
+        color: #fff !important;
+        font-size:15px !important;
+        background: #4f9116 !important; /* Old browsers */
+        background: -moz-linear-gradient(top,  #4f9116 0%, #85ba22 100%) !important; /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f9116), color-stop(100%,#85ba22)) !important; /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #4f9116 0%,#85ba22 100%) !important; /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #4f9116 0%,#85ba22 100%) !important; /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #4f9116 0%,#85ba22 100%) !important; /* IE10+ */
+        background: linear-gradient(to bottom,  #4f9116 0%,#85ba22 100%) !important; /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ba22', endColorstr='#4f9116',GradientType=0 ) !important; /* IE6-9 */
+}
+
+input[type="text"]{
+        background: #2d2d2d;
+        border-radius:5px;
+        color:#fff;
+        font-weight:bold;
+        display:block;                     /**change by c**/
+}
+/*changes by P on 13 Nov 2013 start */
+input[type="password"]{
+        border-radius:5px;
+        color:#fff;
+        font-weight:bold;
+        display:block;                        /**change by c**/
+}
+/*changes by P on 13 Nov 2013 end */
+/**change by archana start **/
+input[type="tel"]{
+        background: #2d2d2d;
+        border-radius:5px;
+        color:#fff;
+        font-weight:bold;
+        display:block;
+}
+
+/**change by archana ends**/
+::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #fff !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    #fff !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    #fff !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:    #fff !important;
+}
+.fieldNameLabelCss{
+        color: #fff;
+}
+/*============================================changes by Saurabh for NewEven3.js Start==============================================*/
+.listLabelShadowCls{
+        text-shadow:none;
+}
+
+.contactListCheckBox {
+        margin-left: 1em;
+        margin-top: 0.4em;
+}
+
+.marginTopToolbarCls{
+        margin-top:0.3%; !important;
+}
+
+.addAccountButtonBaseCls{
+        background:url('../images/GreyBarBg.png') no-repeat;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        border:none;
+}
+
+.searchFieldParentPanelCls .x-field-search .x-component-outer{
+        height:28px !important;
+}
+
+.searchFieldParentPanelCls .x-field {
+        min-height:2em !important;
+}
+
+.searchFieldParentPanelCls .x-input-el {
+        width:90%;
+        padding-top:3px !important;
+        min-height:1em !important;
+}
+
+.searchFieldCls{
+        border-top: 2px solid grey;
+        border-radius:20px;
+        margin-left:10px;
+        margin-right:10px;
+}
+/*=============================================changes by Saurabh for NewEven3.js End=============================================*/
+
+/*================================================= Common css end ====================================================================*/
+
+/*================================================= Overridden css start ==============================================================*/
+.x-field {
+        border-radius: 8px !important;
+        background: #414242 !important;
+}
+
+.x-component-outer{
+        border-radius:8px !important;
+}
+/*================================================= Overridden css end ================================================================*/
+
+
+/*********************added by vivek sahu on 13/11/13 for settingsView Start*****************************/
+/********************these css files are for buttons, labels and header*****************************/
+
+.settingsViewHeaderCls {
+        font-weight:bold;
+}
+
+.settingsViewLabelCls {
+        font-size:15px;
+        margin-top:3px;
+}
+
+.settingsViewSecondLabelCls {                             /*added by vivek sahu on 18/11/13 */
+        font-size:15px;
+        font-weight:bold;
+}
+
+.settingsViewBtnCls{
+        border:2px solid #222327;width:90%;padding:10px 0;border-radius:5px;color:#fff;font-weight:bold;display:block;
+        text-indent: 0px;
+        background: #2d2d2d; /* Old browsers */
+        background: -moz-linear-gradient(top,  #333333 0%, #333333 50%, #2d2d2d 51%, #282828 51%, #282828 51%, #0e0e0e 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(50%,#333333), color-stop(51%,#2d2d2d), color-stop(51%,#282828), color-stop(51%,#282828), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #333333 0%,#333333 50%,#2d2d2d 51%,#282828 51%,#282828 51%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #333333 0%,#333333 50%,#2d2d2d 51%,#282828 51%,#282828 51%,#0e0e0e 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #333333 0%,#333333 50%,#2d2d2d 51%,#282828 51%,#282828 51%,#0e0e0e 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #333333 0%,#333333 50%,#2d2d2d 51%,#282828 51%,#282828 51%,#0e0e0e 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+        /*Changed By Avin*/
+        background:#2f3135 url('../images/black_btn_bg.png') repeat-x !important;
+}
+
+.settingsViewBtnCls:hover,.buttonMainCls:active {
+
+        background: #85ba22 !important; /* Old browsers */
+        background: -moz-linear-gradient(top,  #85ba22 0%, #4f9116 100%) !important; /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85ba22), color-stop(100%,#4f9116)) !important; /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* IE10+ */
+        background: linear-gradient(to bottom,  #85ba22 0%,#4f9116 100%) !important; /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ba22', endColorstr='#4f9116',GradientType=0 ) !important; /* IE6-9 */
+}
+
+.deleteAccountViewLabelCls {
+        text-align:center;
+        font-size:15px;
+}
+
+/**************************************************changes by vivek sahu End****************************************************/
+
+/*=====================================changes by P on 13 Nov 2013 Start====================================*/
+.marginTop10Px{
+        margin-top:10px;
+}
+
+.marginTop15Px{
+        margin-top:15px;
+}
+
+.marginTop50Px{
+        margin-top:50px;
+}
+
+.marginLeft4Px{
+        margin-left: 4px;
+}
+
+.loginViewMainPanelCls .x-button{
+        -webkit-border-radius: 5px !important;
+        border-radius:5px !important;
+}
+
+.welcomeLabelPanelCls{
+        border-radius:5px;
+        border:2px solid #818080;
+        background: #626263;
+}
+
+.welcomeLabelCls{
+        font-weight:bold;
+        color:white;
+        font-size:16px;
+}
+
+.starLabelCls{
+        color:red;
+        padding-left:2px;
+}
+
+.borderRadiusCls{
+        border-radius:5px;
+        border:1px solid #000 !important; /*Changed By Avin*/
+}
+
+.loginViewTextFieldCls{
+        font-size: 15px;
+}
+
+.loginViewTextFieldCls .x-component-outer{
+        background:#2d2d2d !important;
+        border-radius:8px !important;
+}
+
+.loginButtonCls{
+        cursor:pointer;
+        color:white;
+}
+
+.joinHereButtonCls{
+        cursor:pointer;
+        margin-top:15px;
+        color:#66B91D;
+        font-size:16px;
+}
+
+.joinHereButtonCls .x-button {
+        background-color: none !important;
+        color: red !important;
+}
+
+.joinHereButtonCls span.x-button-label{
+    color: #66B91D !important;
+}
+
+.newsLabelCls{
+        font-size:15px;
+        color:white;
+        margin-top:15px;
+}
+
+.newUserViewMainPanelCls .x-button{
+        -webkit-border-radius: 5px !important;
+        border-radius:5px !important;
+}
+
+.selectFieldInputCls{
+        font-size: 15px;
+        border-radius:5px;
+}
+
+.selectFieldInputCls .x-spinner .x-input-el, .x-field-select .x-input-el{
+        -webkit-text-fill-color: #FFF;
+}
+
+.selectFieldInputCls .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item.x-item-selected.x-list-item-tpl {
+        background-image:none !important;
+        border-top-color:#85ba22 !important;
+        background: #85ba22 !important; /* Old browsers */
+        background: -moz-linear-gradient(top,  #85ba22 0%, #4f9116 100%) !important; /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85ba22), color-stop(100%,#4f9116)) !important; /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #85ba22 0%,#4f9116 100%) !important; /* IE10+ */
+        background: linear-gradient(to bottom,  #85ba22 0%,#4f9116 100%) !important; /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ba22', endColorstr='#4f9116',GradientType=0 ) !important; /* IE6-9 */
+}
+
+.sendVerificationButtonCls{
+        cursor:pointer;
+        color:white;
+        font-size:16px;
+        margin-top:15px;
+}
+
+.customizedSelectFieldMainPanelCls .x-form .x-scroll-container{
+        background-color:#2d2d2d;
+}
+
+.customizedButtonPanelCls .x-button{
+        -webkit-border-radius: 5px !important;
+        border-radius:5px !important;
+}
+
+.customizedSelectFieldListCls{
+        color:black;
+        font-size:13px;
+        font-weight:bold;
+        width: 90% !important;
+        margin-top:10px;
+        border:2px solid #ddd !important;
+        border-radius:5px !important;
+}
+
+.customizedSelectFieldMainPanelCls .x-list .x-scroll-scroller{
+        background:white;
+}
+
+.customizedFieldButtonCls{
+        background: #2d2d2d;
+        border-radius:5px;
+        color:#fff;
+        font-weight:bold;
+        display:block;
+        font-size:15px;
+        background: url('../images/textfield_bg.png') repeat-x !important;/*Changed By Avin*/
+}
+
+.customizedFieldButtonCls:hover,.buttonMainCls:active{
+        background: #2d2d2d;
+        border-radius:5px;
+        color:#fff;
+        font-weight:bold;
+        display:block;
+        font-size:15px;
+        background: url('../images/textfield_bg.png') repeat-x !important;/*Changed By Avin*/
+}
+
+.customizedFieldButtonCls .x-button-label, .x-badge, .x-hasbadge .x-badge{
+        text-align:left;
+}
+
+.customizedFieldButtonCls .x-button-label, .x-badge, .x-hasbadge .x-badge{
+        text-align:left;
+}
+
+.customizedFieldButtonIconCls{
+        background-image:url('../images/rightArrow.png');
+        background-repeat: no-repeat;
+        width: 12px !important;
+        height: 19px !important;
+        left: 97%;
+}
+
+.customizedButtonPanelCls .x-iconalign-left .x-button-label, .x-iconalign-left .x-badge, .x-iconalign-left .x-hasbadge .x-badge, .x-hasbadge .x-iconalign-left .x-badge{
+        margin-left:-15px;
+}
+
+.customizedSelectFieldMainPanelCls .x-list-normal .x-list-item.x-list-item-tpl, .x-list-normal .x-list-item .x-dock-horizontal{
+        border-bottom:1px solid #ddd !important;
+        border-top:none !important;
+        border-left:none !important;
+        border-right:none !important;
+}
+
+.customizedSelectFieldListCls .x-indexbar > div {           /* changes By Pooja on 27 Nov 2013 */
+        font-size: 8px !important;                   /*** font-size: changed from 9px to 8px by SL on 20 Dec. 2013  ***/
+        text-align: center !important;
+        line-height: 145% !important;                /*** line-height: changed from 14px to 10px by SL on 20 Dec. 2013 ***/
+        font-weight: bold !important;
+        display: block !important;
+        text-shadow: none !important;
+        color: black !important;
+}
+
+.customizedSelectFieldListCls .x-indexbar-vertical{
+        margin-right:0px !important;
+}
+
+.customizedSelectSearchFieldInputCls{
+        color: #fff !important;
+        padding-left: 35px !important;
+}
+
+.customizedSelectFieldMainPanelCls .x-field-search .x-field-input:before {
+        color: #ccc;
+        top: 0.8em !important;
+        left: .5em;
+        font-size: 1.4em;
+        right: auto;
+}
+
+.customizedSelectFieldMainPanelCls .x-input-el{
+        min-height:45px !important;
+}
+
+.customizedSelectSearchFieldCls{
+        color:black;
+        font-size:13px;
+        font-weight:bold;
+}
+
+.customizedSelectSearchFieldCls .x-component-outer {
+        background: #FFFFFF !important;
+        border-radius: 8px !important;  /*changed by Avin*/
+ }
+
+.customizedSelectSearchFieldCls input {
+        background: white;
+        border-radius: 7px;
+        color: #fff !important;
+        display: block;
+}
+
+.customizedSelectFieldMainPanelCls .x-field-search .x-field-input .x-form-field{
+        margin-left: 0px !important;
+}
+ 
+.textCls .x-field .x-field-input, .x-field .x-input-el {
+        width: 100%;
+        border-radius: 7px; /*Changed By Avin*/
+}
+
+body .x-mask .x-mask-inner {
+        position: relative;
+        background: rgba(0,0,0,0.25);
+        color: #fff;
+        text-align: center;
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bold;
+}
+
+body .x-mask.x-has-message .x-loading-spinner-outer {
+        height: 100px;
+}
+
+body .x-mask .x-loading-spinner-outer {
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-orient: vertical;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 98%;
+        min-width: 7em;
+        height: 8em;
+}
+
+/*=================================================changes by P on 13 Nov 2013 Start=================================================*/
+/******************changes by chetana walunj on 13nov 2013 starts*********/
+.alertLongListPopupCls {
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        border: 2px solid #414242 !important;
+        padding: 4px;
+        -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+        background: rgba(0, 0, 0, 1)!important;
+}
+
+.saveServiceTopLabelPanelCls {
+        padding-left: .5em;
+        padding-right: .5em;
+}
+
+.h4 {
+        font-size: 16px !important;
+        overflow: hidden !important;
+}
+
+.h5 {
+        font-size: 14px !important;
+        overflow: hidden !important;
+}
+
+.textFieldCls{
+        font-size: 15px;
+}
+
+.marginTop15pxCls{
+        margin-top:15px;
+}
+
+.marginTop20pxCls{
+        margin-top:20px;
+}
+
+.newEventStartLabelCls{
+        color:red !important;
+}
+
+.cursorPointerCls{
+        cursor:pointer!important;
+}
+
+.marginLeft5pxCls{
+        margin-left:5px;
+}
+
+.marginLeft3pxCls{
+        margin-left:3px;
+}
+
+.paddingLeft4pxCls{
+        padding-left:4px;
+}
+
+.newEventSelectPanelCls .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item.x-item-selected.x-list-item-tpl {
+        background-color:rgb(45,45,45) !important;
+        background-image:none !important;
+        border-top: 1px solid black !important;
+}
+.whiteFlat {
+	    color: #FFFF !important;
+}
+.newEventMainCls .x-button{
+  /*-webkit-border-radius: 5px !important;
+  border-radius:5px !important;*/
+}
+
+.marginTop5pxCls{
+        margin-top:5px;
+}
+
+.padding5pxCls{
+        padding:5px !important;
+}
+
+.margin0pxCls{
+        margin:0px!important;
+}
+
+.marginLeft10pxCls{
+        margin-left:10px;
+}
+
+.marginRight5pxCls{
+        margin-right:5px;
+}
+
+/*****************changes by chetana walunj ends********/
+
+/*NewEventFourth Css Abhijit start*/
+
+.checkboxFieldCls{
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background: -webkit-linear-gradient(#FCFCFC, #DADADA);
+        -webkit-appearance: none;
+        -webkit-transition: box-shadow 200ms;
+        box-shadow: inset 1px 1px 0 #fff, 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.checkboxLabelStyleCls {
+        margin-left:10px;
+        font-size:12px;
+}
+
+.checkboxPanelCls .x-field .x-component-outer {
+        background:white;
+        width:20px;
+        text-align:center;
+}
+
+.checkboxPanelCls .x-field .x-field-input {
+        position:relative !important;
+        min-width:1.6em !important;
+        height:20px !important;
+}
+
+.checkboxPanelCls .x-input-el:checked+.x-field-mask::after {
+        color:#FFF !important;
+        text-align:center !important;
+        min-width:1.6em !important;
+        padding-left:8px !important;
+}
+
+.checkboxPanelCls .x-field {
+        min-height:1.2em !important;
+        min-width:0.8em !important;
+}
+
+.checkboxPanelCls .x-field-checkbox .x-field-mask::after, .x-field-radio .x-field-mask::after {
+        color:#85ba22 !important;
+        font-size:85% !important;
+        text-align:center !important;
+}
+
+.checkboxPanelCls .x-input-el {
+        min-height:1em !important;
+}
+
+.invitationLabelCls{
+        font-size:14px;
+}
+
+.marginTop6PxCls {
+        margin-top:6px;
+}
+
+.marginTop15PxCls {
+        margin-top:15px;
+}
+
+/*Custom selectfield css start*/
+.x-field-select .x-component-outer:after {
+        z-index: 2;
+        background: url('../images/down_arrow.png');          /**changed by c**/
+        background-repeat: no-repeat !important;
+        background-size:100% 100%;
+}
+
+input, textarea {
+        background: #2d2d2d;
+        border-radius:5px;
+        color:#fff !important;
+        display:block;
+        background: url('../images/textfield_bg.png') repeat-x !important;/*Changed By Avin*/
+        background-repeat: no-repeat !important;
+        background-size:100% 100%!important;
+}
+
+input[type="search"] {
+
+        background: url('../images/searchfield_bg.png') repeat-x !important;/*Changed By Avin*/
+        background: #FFF !important;
+        color: #000 !important;
+}
+
+.x-sheet, .x-picker, .x-sheet-action{
+        background-color: #808080;
+        background-image: none;
+        border-top: 1px solid #000;
+}
+
+.x-toolbar-dark{
+        background:url('../images/title_bar_bg.png') repeat-x !important;/*Changed By Avin*/
+}
+
+.x-picker-bar{
+        background-color: rgba(134, 134, 128, 0.3);
+        background-image: none;
+        border-top: 0.12em solid #C0C0C0;
+        border-bottom:0.12em solid #C0C0C0;
+}
+
+.x-toolbar-dark .x-button, .x-toolbar-dark .x-button.x-button-back:after, .x-toolbar-dark .x-button.x-button-forward:after, .x-toolbar .x-toolbar-dark .x-button, .x-toolbar .x-toolbar-dark .x-button.x-button-back:after, .x-toolbar .x-toolbar-dark .x-button.x-button-forward:after, .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar-dark .x-field-select .x-component-outer.x-button-back:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-back:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward:after{
+        background-image: none;
+        background-color: #262626;
+        border:none;
+}
+
+.x-toolbar-dark .x-button.x-button-pressing, .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar-dark .x-button.x-button-active, .x-toolbar-dark .x-button.x-button-active:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-button.x-button-active, .x-toolbar .x-toolbar-dark .x-button.x-button-active:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-active, .x-toolbar-dark .x-field-select .x-component-outer.x-button-active:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-active, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-active:after{
+        background-image: none;
+        background-color: #000;
+}
+
+.x-button.x-button-action, .x-button.x-button-action.x-button-back:after, .x-button.x-button-action.x-button-forward:after, .x-toolbar .x-button.x-button-action, .x-toolbar .x-button.x-button-action.x-button-back:after, .x-toolbar .x-button.x-button-action.x-button-forward:after, .x-button.x-button-action-round, .x-button.x-button-action-round.x-button-back:after, .x-button.x-button-action-round.x-button-forward:after, .x-toolbar .x-button.x-button-action-round, .x-toolbar .x-button.x-button-action-round.x-button-back:after, .x-toolbar .x-button.x-button-action-round.x-button-forward:after, .x-button.x-button-action-small, .x-button.x-button-action-small.x-button-back:after, .x-button.x-button-action-small.x-button-forward:after, .x-toolbar .x-button.x-button-action-small, .x-toolbar .x-button.x-button-action-small.x-button-back:after, .x-toolbar .x-button.x-button-action-small.x-button-forward:after{
+        background-image: none;
+        background-color: #85BA22;
+        border:none;
+}
+
+.x-button.x-button-action.x-button-pressing, .x-button.x-button-action.x-button-pressing:after, .x-button.x-button-action.x-button-pressed, .x-button.x-button-action.x-button-pressed:after, .x-button.x-button-action.x-button-active, .x-button.x-button-action.x-button-active:after, .x-toolbar .x-button.x-button-action.x-button-pressing, .x-toolbar .x-button.x-button-action.x-button-pressing:after, .x-toolbar .x-button.x-button-action.x-button-pressed, .x-toolbar .x-button.x-button-action.x-button-pressed:after, .x-toolbar .x-button.x-button-action.x-button-active, .x-toolbar .x-button.x-button-action.x-button-active:after, .x-button.x-button-action-round.x-button-pressing, .x-button.x-button-action-round.x-button-pressing:after, .x-button.x-button-action-round.x-button-pressed, .x-button.x-button-action-round.x-button-pressed:after, .x-button.x-button-action-round.x-button-active, .x-button.x-button-action-round.x-button-active:after, .x-toolbar .x-button.x-button-action-round.x-button-pressing, .x-toolbar .x-button.x-button-action-round.x-button-pressing:after, .x-toolbar .x-button.x-button-action-round.x-button-pressed, .x-toolbar .x-button.x-button-action-round.x-button-pressed:after, .x-toolbar .x-button.x-button-action-round.x-button-active, .x-toolbar .x-button.x-button-action-round.x-button-active:after, .x-button.x-button-action-small.x-button-pressing, .x-button.x-button-action-small.x-button-pressing:after, .x-button.x-button-action-small.x-button-pressed, .x-button.x-button-action-small.x-button-pressed:after, .x-button.x-button-action-small.x-button-active, .x-button.x-button-action-small.x-button-active:after, .x-toolbar .x-button.x-button-action-small.x-button-pressing, .x-toolbar .x-button.x-button-action-small.x-button-pressing:after, .x-toolbar .x-button.x-button-action-small.x-button-pressed, .x-toolbar .x-button.x-button-action-small.x-button-pressed:after, .x-toolbar .x-button.x-button-action-small.x-button-active, .x-toolbar .x-button.x-button-action-small.x-button-active:after{
+        background-image: none;
+        background-color: #5D8218;
+        border:none;
+}
+
+.selectfieldInputCls{
+        color:#FFF;
+}
+
+.selectFieldInputCls .x-spinner .x-input-el, .x-field-select .x-input-el{
+        -webkit-text-fill-color: #FFF;
+}
+
+.x-picker-slot-title{
+        background:url('../images/title_bar_bg.png') repeat-x !important;
+        color:white;
+        border:none;
+}
+
+.x-picker-slot-title > div {
+        font-size: 0.9em;
+        color: white;
+        text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
+}
+/*New Event 4 css Abhijit end*/
+
+
+
+/*     Forget Password CSS  Starts  here */
+
+
+.x-list-normal .x-list-item.x-list-item-tpl, .x-list-normal .x-list-item .x-dock-horizontal {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        height:10% !important;
+}
+
+.tabDivCls .ui-tabs .ui-widget .ui-widget-content .ui-corner-all{
+        border:1px solid green !important;
+        width:100% !important;
+}
+
+.x-list-item-first .x-list-header-wrap .x-list-item .x-stretched .x-list-item-tpl .x-list-item-relative {
+        min-height: 100px;
+}
+
+.resetCls{
+        text-align:center;
+        vertical-align:middle;
+        margin-top:1%;
+}
+
+.resetDetailCls{
+        text-align:center;
+        vertical-align:middle;
+        margin-top:20px;
+        margin-left:5%;
+        font-size:15px !important;
+        height:'7%',
+}
+
+.countrySelecCls{
+        width:80% !important;
+        align:center !important;
+        margin-top:1% !important;
+        font-size:13px !important;
+        font-weight:bold !important;
+}
+
+.sendBtnCls{
+        height:2%;
+        margin-top:5px;
+        margin-left:5% !important;
+}
+.x-form-label span {
+        font-size: 14px;
+}
+
+.x-form-label-nowrap .x-form-label {
+        white-space: nowrap;
+        border-radius: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border: 5px !important;
+}
+
+.mainDivCls{
+        background: #959595; /* Old browsers */
+        background: -moz-linear-gradient(top,  #959595 0%, #383838 50%, #232323 51%, #232323 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(50%,#383838), color-stop(51%,#232323), color-stop(100%,#232323)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #959595 0%,#383838 50%,#232323 51%,#232323 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#232323',GradientType=0 ); /* IE6-9 */
+
+}
+
+.headerCls{
+        height:10%;
+        background: #959595;
+        background: -moz-linear-gradient(top, #959595 0%, #383838 50%, #232323 51%, #232323 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(50%,#383838), color-stop(51%,#232323), color-stop(100%,#232323));
+        background: -webkit-linear-gradient(top, #959595 0%,#383838 50%,#232323 51%,#232323 100%);
+        background: -o-linear-gradient(top, #959595 0%,#383838 50%,#232323 51%,#232323 100%);
+        background: -ms-linear-gradient(top, #959595 0%,#383838 50%,#232323 51%,#232323 100%);
+        background: linear-gradient(to bottom, #959595 0%,#383838 50%,#232323 51%,#232323 100%);
+}
+
+.searchFieldParentPanelCls{
+        background:url('../images/GreyBarBg.png') no-repeat;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        border:none;
+        align:center;
+        height:40px;
+        margin-left:10%;
+        margin-top:2% !important;
+}
+
+
+.addAccountButtonBaseCls .x-button, .x-button.x-button-back::after, .x-button.x-button-forward::after{
+        background: url('../images/AddAccountButton.png');
+        background-repeat: no-repeat !important;
+        background-size:100% 100%;
+        color:#ffffff;
+        border:none;
+        cursor:pointer;
+}
+
+.searchLabelCls{
+		width:10%;
+}
+
+.searchFieldCls{
+        border-radius:20px;
+        margin-top:1px;
+}
+
+.searchListCls{
+		margin-left:10% !important;
+		margin-top:'1%',
+}
+
+.x-list-round .x-list-inner .x-scroll-container {
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 1px;
+        width: auto !important;
+        height: auto !important;
+}
+
+.searchOuterCss .x-component-outer{
+        background:white !important;
+        border-radius:6px !important;
+}
+
+.searchInnerCls .input textarea {
+        background: white !important;
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+}
+
+.countryFldCls {
+        margin-left:10px;
+        margin-top:5px;
+
+}
+
+.resetLabelCls{
+
+        text-align:center;
+        vertical-align:middle;
+        margin-left:10%;
+        font-size:15px !important;
+        height:'7%',
+}
+
+.passwordValidCls .x-innerhtml {
+        width: 100% !important;
+        font-size: 15px !important;
+        text-align: center !important;
+}
+/*     Forget Password CSS  Ends  here */
+
+/*
+* Changes by Avin
+* For making color white of all textfiled
+*/
+input.x-input-text,input.x-input-password,input.x-input-textarea,input.x-input-number,input.x-input-tel{    /**change by archana**/
+        color:#FFF !important;
+        -webkit-text-fill-color:#FFF !important;
+}
+
+.handleTextFieldBg .x-field{
+        min-height:0em !important;
+}
+
+/************** custom message box. changes by MR -18Nov2013.****************/
+.customConfirmMsgBox {
+        -webkit-border-radius: 0px;
+        border: 2px solid #414242 !important;
+        padding: 4px;
+        -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+        background: rgba(0, 0, 0, 1)!important;
+        color:white;
+        font-size:20px;
+        text-align:center;
+}
+
+.customConfirmMsgBox .x-button{
+        border:none !important;
+        outline:none !important;
+        background-color:#85ba22;
+        color:white !important;
+}
+
+.x-msgbox .x-toolbar.x-docked-bottom{
+        background-image:none !important;                                       /*changes by MR - 16Nov2013.*/
+}
+
+.x-msgbox-dark .x-msgbox-text{
+        color:white !important;
+        font-size:17px;
+}
+
+.x-msgbox-buttons .x-button-normal span {                             /* added by vivek sahu on 18/11/13 */
+        opacity: 2.7;
+}
+
+/*added by vivek for toolbar btn issues*/
+.feedbackBtnCls{
+        background-image:url('../images/feedback.png') !important;
+        background-repeat: no-repeat !important;
+        background-color: transparent !important;
+        background-size: 80% 100% !important;
+        background-position: right center !important;
+
+}
+
+.backBtnCls{
+        background-image:url('../images/backButton.png') !important;
+        background-repeat: no-repeat !important;
+        background-color: transparent !important;
+        background-size: 80% 100% !important;
+}
+.backBtnCls:active{
+        background-image:url('../images/backButton_pressed_New.png') !important;
+        background-repeat: no-repeat !important;
+        background-color: transparent !important;
+        background-size: 80% 100% !important;
+}
+.gm-style-cc{display:none !important;}
+.marginTop20PxCls{
+        margin-top:20px;
+}
+
+.marginTop0PxCls{
+        margin-top:0px !important;
+        text-align: center;
+}
+
+/**changes by c**/
+.marginLeft6PxCls{
+        margin-left:6px
+}
+
+.marginLeft8PxCls{
+        margin-left:8px;
+}
+
+.imageClsJoinIcon{
+        height: 22px !important;
+        width: 26px !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+        background: #111 url('../images/account.png') no-repeat;
+        background-size: 80% !important;
+        background-position: center center;
+        border-radius: 3px;
+        cursor:pointer;
+}
+
+.imageClsForgotPSWIcon{
+        height: 22px !important;
+        width: 26px !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+        background: #111 url(../images/lock.png) no-repeat;
+        background-size: 80% !important;
+        background-position: center center;
+        border-radius: 3px;
+        cursor:pointer;
+}
+/**css by c**/
+.newEvent3ListPanelCls .x-list-round .x-indexbar-vertical{          /* changes by P on 22 Nov 2013 */
+        margin-right:0px !important;
+}
+
+.newEvent3ListPanelCls .x-indexbar > div {          /* changes by P on 26 Nov 2013 */
+        font-size: 8px !important;
+        text-align: center !important;
+        line-height: 145% !important;
+        font-weight: bold !important;
+        display: block !important;
+        color: black !important;
+        text-shadow: none;
+}
+
+.checkBtnCls{
+        background: url('../images/checked.png') !important;
+        background-size:30px 30px !important;
+        border:none !important;
+        outline:none !important;
+        width:30px;
+        height:30px;
+}
+.unCheckBtnCls{
+        background: url('../images/unchecked.png') !important;
+        background-size:30px 30px !important;
+        border:none !important;
+        outline:none !important;
+        width:30px;
+        height:30px;
+        border:1px solid red;
+}
+
+.newEvent3ListPanelCls .x-field-input .x-form-field{
+        margin-left: 0em !important;
+ }
+
+ .contactListSelectedCls{
+        background:#E0DFDF !important;
+        color:#969595 !important;
+ }
+
+
+ /* toggle button changes by P on 21 Nov 2013 start */
+.toggleButtonPanelCls  .x-toggle {
+        width: 4.25em !important;
+        -webkit-transform: translate3d(0px, -1px, 0px);
+        -webkit-border-radius: 1.1em;
+        border: none !important;
+        background-image: none;
+        background-color: none;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c4c4c4), color-stop(10%, #d0d0d0), color-stop(65%, #dddddd), color-stop(100%, #dedede));
+        background-image: -webkit-linear-gradient(top, #c4c4c4, #d0d0d0 10%, #dddddd 65%, #dedede);
+        background-image: linear-gradient(top, #c4c4c4, #d0d0d0 10%, #dddddd 65%, #dedede);
+        -webkit-box-flex: 0;
+
+}
+
+.toggleButtonPanelCls .x-toggle-on {
+        background: url('../images/toggle_on_off.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+        border-radius: 0px;
+        border: none !important;
+}
+
+.toggleButtonPanelCls .x-toggle-off {
+        background: url('../images/toggle_on_off.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+        border-radius: 0px;
+        border: none !important;
+}
+
+.toggleButtonPanelCls .x-field {
+        min-height: 1.5em !important;
+        background: none !important;
+        border: none !important;
+}
+
+.toggleButtonPanelCls .x-slider-field .x-component-outer, .x-toggle-field .x-component-outer{
+        padding: 0.0em;
+        border: none !important;
+}
+
+.toggleButtonPanelCls .x-thumb:after {
+        border: none !important;
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        left: 0px;
+        background-image: none;
+        background: url('../images/toggle_controller.png') !important;
+        background-size: 40px 40px !important;
+        background-color: none;
+        background-image: -webkit-linear-gradient(top, #ffffff,#eaeaea 3%,#d0d0d0);
+        background-image: -moz-linear-gradient(top, #ffffff,#eaeaea 3%,#d0d0d0);
+        background-image: -o-linear-gradient(top, #ffffff,#eaeaea 3%,#d0d0d0);
+        background-image: linear-gradient(top, #ffffff,#eaeaea 3%,#d0d0d0);
+        -webkit-background-clip: padding;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+}
+
+/* toggle button changes by P on 21 Nov 2013 end */
+
+/* changes by P on 29 Nov 2013 start */
+.locationTextCls{
+        background: #2d2d2d;
+        border-radius: 7px !important;
+        color:#fff !important;
+        -webkit-text-fill-color:#FFF !important;
+        background: url('../images/textfield_bg.png') repeat-x !important;
+        background-repeat: no-repeat !important;
+        background-size:100% 100%!important;
+        font-weight:bold !important;
+}
+
+.locationTextCls .x-innerhtml {
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+        padding: .6em !important;
+        white-space: nowrap;
+}
+
+.newEvent2MainPanelCls .x-scroll-scroller {
+        position: relative !important;
+}
+
+/* changes by P on 29 Nov 2013 end */
+
+/* new event3 contact list CSS start */
+
+.newEvent3ListPanelCls .x-list-round .x-list-header {               /* changes by P on 22 Nov 2013 */
+        color: #000 !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        padding-left: 15px !important;
+        line-height: 1.7em;
+        text-shadow: none !important;
+        background-image: -webkit-linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+        background-image: -moz-linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+        background-image: -o-linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+        background-image: linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+}
+
+.newEvent3ListPanelCls .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl, .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal {
+        border: none;
+        background: transparent;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+}
+
+.newEvent3ListPanelCls .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl > .x-innerhtml, .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl > .x-dock-body, .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal > .x-innerhtml, .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal > .x-dock-body {
+        -moz-border-radius-bottomleft: 0px !important;
+        -webkit-border-bottom-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        -moz-border-radius-bottomright: 0px !important;
+        -webkit-border-bottom-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+}
+
+.newEvent3ListPanelCls .x-list-round.x-list-grouped .x-list-header-wrap.x-list-header {
+        border: 1px solid #dedede !important;
+        border-width: 1px 1px 0 1px !important;
+        background:#CCC !important;
+        -moz-border-radius-topleft: 0px !important;
+        -webkit-border-top-left-radius: 0px !important;
+        border-top-left-radius: 0px!important;
+        -moz-border-radius-topright: 0px !important;
+        -webkit-border-top-right-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+}
+
+.eventDisplayNameCls{
+        width:60%;
+        text-shadow:none;
+        text-align:left;
+        font-size:15px;
+        font-weight:bold;
+}
+
+.eventAdminLabelCls{
+        width:40%;
+        text-align:right;
+        text-shadow:none;
+        font-size:12px;
+        font-weight:bold;
+        color:#797979;
+        float:right;
+        padding-top:3px;
+        padding-right:8px;
+}
+
+.contactsTplMainDivCls{
+        width:100%;
+        padding:12px 5px;
+        background:#E0DFDF;
+        color:#969595;
+        border-top:1px solid white;
+}
+
+.contactsTplItemCls{
+        width:100%;
+        padding:12px 5px;
+        background:white;
+        color:black;
+        border-top:1px solid white;
+}
+
+.contactListItemCls{
+        background-color:red !important;
+        color:green !important;
+}
+
+.contactListItemCls .x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+        padding: 0px !important;
+}
+
+.newEvent3ListPanelCls .x-field-search .x-field-input:before {
+        color: #ccc !important;
+        top: 0.5em !important;
+        left: 0.5em !important;
+        font-size: 1.3em !important;
+        right: auto !important;
+        text-shadow: none !important;
+}
+
+.eventSearchFieldInputCls {
+        color: #fff !important;
+        padding-left: 35px !important;
+}
+
+/* new event3 contact list CSS start */
+
+.newEvent3ListPanelCls .x-list-round .x-list-header {               /* changes by P on 22 Nov 2013 */
+        color: #000 !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        padding-left: 15px !important;
+        line-height: 1.7em;
+        text-shadow: none !important;
+        background-image: -webkit-linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+        background-image: -moz-linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+        background-image: -o-linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+        background-image: linear-gradient(top, #eeeeee,rgba(238,238,238,0.9) 30%,rgba(238,238,238,0.4));
+}
+
+.newEvent3ListPanelCls .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl, .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal {
+        border: none;
+        background: transparent;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+}
+
+.newEvent3ListPanelCls .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl > .x-innerhtml, .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl > .x-dock-body, .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal > .x-innerhtml, .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal > .x-dock-body {
+        -moz-border-radius-bottomleft: 0px !important;
+        -webkit-border-bottom-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        -moz-border-radius-bottomright: 0px !important;
+        -webkit-border-bottom-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+}
+
+.newEvent3ListPanelCls .x-list-round.x-list-grouped .x-list-header-wrap.x-list-header {
+        border: 1px solid #dedede !important;
+        border-width: 1px 1px 0 1px !important;
+        background:#CCC !important;
+        -moz-border-radius-topleft: 0px !important;
+        -webkit-border-top-left-radius: 0px !important;
+        border-top-left-radius: 0px!important;
+        -moz-border-radius-topright: 0px !important;
+        -webkit-border-top-right-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+}
+
+.eventDisplayNameCls{
+        width:60%;
+        text-shadow:none;
+        text-align:left;
+        font-size:15px;
+        font-weight:bold;
+}
+
+.eventAdminLabelCls{
+        width:40%;
+        text-align:right;
+        text-shadow:none;
+        font-size:12px;
+        font-weight:bold;
+        color:#797979;
+        float:right;
+        padding-top:3px;
+        padding-right:8px;
+}
+
+.contactsTplMainDivCls{
+        width:100%;
+        padding:12px 5px;
+        background:#E0DFDF;
+        color:#969595;
+        border-top:1px solid white;
+}
+
+.contactsTplItemCls{
+        width:100%;
+        padding:12px 5px;
+        background:white;
+        color:black;
+        border-top:1px solid white;
+}
+
+.contactListItemCls{
+        background-color:red !important;
+        color:green !important;
+}
+
+.contactListItemCls .x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+        padding: 0px !important;
+}
+
+.newEvent3ListPanelCls .x-field-search .x-field-input:before {
+        color: #ccc !important;
+        top: 0.5em !important;
+        left: 0.5em !important;
+        font-size: 1.3em !important;
+        right: auto !important;
+        text-shadow: none !important;
+}
+
+.eventSearchFieldInputCls {
+        color: #fff !important;
+        padding-left: 35px !important;
+}
+
+/*		Events View css Starts*/
+.tabsCls .x-tabbar.x-docked-top .x-tab{
+        width:33.33%;
+
+}
+
+.tabsCls .x-tabbar-dark{
+		margin:0 !important;
+        color:#fff;font-family:arial;text-shadow: 0px 1px 1px rgba(0, 0, 0, 1) !important;
+        /* IE10 Consumer Preview */
+        background-image: -ms-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* Mozilla Firefox */
+        background-image: -moz-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* Opera */
+        background-image: -o-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* Webkit (Safari/Chrome 10) */
+        background-image: -webkit-gradient(radial, center top, 0, center top, 487, color-stop(0, #68696D), color-stop(1, #262729)) !important;
+
+        /* Webkit (Chrome 11+) */
+        background-image: -webkit-radial-gradient(center top, ellipse farthest-side, #68696D 0%, #262729 70%) !important;
+
+        /* W3C Markup, IE10 Release Preview */
+        background-image: radial-gradient(ellipse farthest-side at center top, #68696D 0%, #262729 70%) !important;
+
+        background: url('../images/bg.png') !important;
+        background-size: cover !important;
+
+}
+
+.listCls .x-list-normal .x-list-item.x-list-item-tpl, .x-list-normal .x-list-item .x-dock-horizontal {
+        min-height: 55px !important;
+}
+
+.listDataCls {
+        padding: 0px 3px;
+        width: 100%;
+        height: 65;
+        float: left;
+        font-size: 12px;
+        font-weight: normal;
+        text-shadow: none;
+        background: #2f3135 url('../images/black_btn_bg.png') repeat-x !important;
+        background-size:100% 100% !important;
+}
+/*
+.buttonCls {
+        float: left;
+        background-size:40px;
+        background-position:center center;
+        background-repeat:no-repeat;
+        background-image: url("../images/chat.png");
+        width: 11%;
+        height: 36px;
+        float:left;
+        margin-top: 15px;
+        white-space: nowrap;
+        margin-bottom: 0px;
+        margin-bottom: 0px;
+        cursor:pointer;
+}*/
+
+.reoccurCls {
+        float: left;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("../images/repeat.png");
+        width: 8%;
+        height: 65px;
+        float: left;
+        white-space: nowrap;
+        background-size: 25px;
+}
+
+.noreoccurCls {
+        float: left;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("../images/no-repeat.png");
+        width: 8%;
+        height: 65px;
+        float: left;
+        white-space: nowrap;
+        background-size: 25px;
+}
+
+.declineCls {
+        float: left;
+        background-size: 24px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("../images/decline.png");
+        width: 8%;
+        height: 65px;
+        float: left;
+        white-space: nowrap;
+}
+
+.acceptCls {
+        float: left;
+        background-size: 24px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-image: url("../images/accept.png");*/
+        width: 8%;
+        height: 65px;
+        float: left;
+        white-space: nowrap;
+}
+
+.pendingCls {
+        float: left;
+        background-size: 24px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-image: url("../images/pending.png");*/
+        width: 8%;
+        height: 65px;
+        float: left;
+        white-space: nowrap;
+}
+
+.noBackgroundCls {
+        margin-top: 15%;
+        margin-left: 10%;
+        align-content: center;
+        background-position: inherit;
+        background: none !important;
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+        float: left;
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100%!important;
+        vertical-align: middle;
+}
+
+.mainDataCls {
+        float: left;
+        height: 65px;
+        width: 73%;
+
+}
+
+.timeCls {
+        float: left;
+        width: 94%;
+        font-size: 12px;
+        color: #999!important;
+        margin-top: -1px;
+}
+
+.dateCls {
+        float: left;
+        margin-left: 8px;
+        font-size: 12px;
+        width: 26%;
+        color: #999!important;
+        border-radius: 5px;
+}
+
+.x-button-label, .x-badge, .x-hasbadge .x-badge {
+        font-weight: bold;
+        line-height: 1.2em;
+        color: white;
+        font-size: 16px !important;
+}
+
+.labelCls{
+        text-align:center;
+        font-size:17px;
+        color:white;
+        font-weight:bold;
+        width: 95% !important;
+		border-radius: 1px;
+		margin:5px 0;
+		border-radius: 5px !important;
+		text-shadow: none;
+
+}
+.subscribed{
+	/*box-shadow: 0 1px 2px #e3f4bf inset, 0 1px 1px #dfdfdf;
+	-webkit-box-shadow: 0 1px 2px #e3f4bf inset, 0 1px 1px #dfdfdf;
+	-moz-box-shadow: 0 1px 2px #e3f4bf inset, 0 1px 1px #dfdfdf;*/
+	border: 2px solid #4f7307;
+	color: #4f7307;
+	background: #d6efa1;
+	background: -moz-linear-gradient(top, #d6efa1 0%, #d0e69d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6efa1), color-stop(100%,#d0e69d));
+	background: -webkit-linear-gradient(top, #d6efa1 0%,#d0e69d 100%);
+	background: -o-linear-gradient(top, #d6efa1 0%,#d0e69d 100%);
+	background: -ms-linear-gradient(top, #d6efa1 0%,#d0e69d 100%);
+	background: linear-gradient(top, #d6efa1 0%,#d0e69d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6efa1', endColorstr='#d0e69d',GradientType=0 );
+}
+.invited{
+	border: 2px solid #bcd9f3;
+	color: #4579aa;
+	background: #deedf9;
+	background: -moz-linear-gradient(top, #deedf9 0%, #cde5f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#deedf9), color-stop(100%,#cde5f7));
+	background: -webkit-linear-gradient(top, #deedf9 0%,#cde5f7 100%);
+	background: -o-linear-gradient(top, #deedf9 0%,#cde5f7 100%);
+	background: -ms-linear-gradient(top, #deedf9 0%,#cde5f7 100%);
+	background: linear-gradient(top, #deedf9 0%,#cde5f7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deedf9', endColorstr='#cde5f7',GradientType=0 );
+	/*box-shadow: 0 1px 2px #e9f3fb inset, 0 1px 1px #dfdfdf;
+	-webkit-box-shadow: 0 1px 2px #e9f3fb inset, 0 1px 1px #dfdfdf;
+	-moz-box-shadow: 0 1px 2px #e9f3fb inset, 0 1px 1px #dfdfdf;*/
+}
+.past{
+	/*box-shadow: 0 1px 2px #fbb5b5 inset, 0 1px 1px #dfdfdf;
+	-webkit-box-shadow: 0 1px 2px #fbb5b5 inset, 0 1px 1px #dfdfdf;
+	-moz-box-shadow: 0 1px 2px #fbb5b5 inset, 0 1px 1px #dfdfdf;*/
+	border: 2px solid #dfa59b;
+	color: #7d2a1c;
+	background: #f0b5a1;
+	background: -moz-linear-gradient(top, #f0b5a1 0%, #de9d8a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b5a1), color-stop(100%,#de9d8a));
+	background: -webkit-linear-gradient(top, #f0b5a1 0%,#de9d8a 100%);
+	background: -o-linear-gradient(top, #f0b5a1 0%,#de9d8a 100%);
+	background: -ms-linear-gradient(top, #f0b5a1 0%,#de9d8a 100%);
+	background: linear-gradient(top, #f0b5a1 0%,#de9d8a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b5a1', endColorstr='#de9d8a',GradientType=0 );
+}
+
+.infoCls{
+        font-size:20px;
+        text-align:center;
+        margin-top:50%;
+        width:'100%'
+}
+
+.x-html {
+        -webkit-user-select: auto;
+        -webkit-touch-callout: inherit;
+        -ms-user-select: auto;
+        line-height: 1.5;
+        color: #333;
+        font-size: .8em;
+        padding: 0em !important;
+}
+
+.reoccuringIconCls {
+        background: url("../images/reoccuration.png") !important;
+        background-size: 100% 100% !important;
+        color: white !important;
+        width: 50px !important;
+        text-align: center!important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+        height: 22px !important;
+        vertical-align: middle !important;
+        background-repeat: no-repeat !important;
+        padding-top: 2px !important;
+        border: none !important;
+        outline: none !important;
+        margin-left: 20px;
+        border-radius: 20px !important;
+}
+
+.participantsIconCls{
+  background: url("../images/participants.png") !important;
+  background-size: 50px 40px !important;
+  background-repeat: no-repeat !important;
+  background-position: left!important;
+}
+
+.participantsIconCls:hover,.participantsIconCls:active{                           /**** Added By SL for participants on 16 Dec. 2013 ****/
+  background: url("../images/participants_pressed.png") !important;
+  background-size: 50px 40px !important;
+  background-repeat: no-repeat !important;
+  background-position: left!important;
+}
+
+.eventTitleCls{
+        margin-left:8px;
+        font-size:15px;
+        color:white;
+        float:left;
+        width:100%;
+        font-weight:bold;
+        margin-top:3px;
+}
+
+.reOccurationBtnCls{
+        float:left;
+        border:1px solid yellow;
+        width:10%;
+
+}
+.x-button-label, .x-badge, .x-hasbadge .x-badge {
+        font-weight: bold;
+        line-height: 1.2em;
+        color: white;
+        font-size: 16px !important;
+}
+
+.x-html {
+        -webkit-user-select: auto;
+        -webkit-touch-callout: inherit;
+        -ms-user-select: auto;
+        line-height: 1.5;
+        color: #333;
+        font-size: .8em;
+        padding: 0em !important;
+}
+
+.x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+        padding: 0px !important;
+}
+
+.adjustBottomBar{
+        display:none !important;
+}
+
+#notesTextAreaId{
+        width:90%;
+}
+
+#notesTextAreaId .x-component-outer .x-field-input textarea.x-input-text{
+        color:#fff !important;
+        background:#2f3135 url('../images/black_btn_bg.png') repeat-x !important;
+        -webkit-text-fill-color:#FFF !important;
+        width:100%;
+        padding: 10px;
+        line-height: 1.5em;
+        /*height: 100px;*/
+}
+#noteOnEventDetails{
+        color: #fff !important;
+        font-size: 15px !important;
+        /*background: #2f3135 url('../images/black_btn_bg.png') repeat-x !important;*/
+        -webkit-text-fill-color: #FFF !important;
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+        line-height: 1.5em;
+        overflow: auto;
+        border-radius: 5px;
+        background: #45484d !important;
+        background: -moz-linear-gradient(top, #45484d 0%, #282828 100%) !important;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#282828)) !important;
+        background: -webkit-linear-gradient(top, #45484d 0%,#282828 100%) !important;
+        background: -o-linear-gradient(top, #45484d 0%,#282828 100%) !important;
+        background: -ms-linear-gradient(top, #45484d 0%,#282828 100%) !important;
+        background: linear-gradient(to bottom, #45484d 0%,#282828 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#282828',GradientType=0 ) !important;
+}
+
+.eventsListCls .x-list-normal .x-list-item.x-list-item-tpl.x-list-footer-wrap, .x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal {
+        border-bottom: none !important;
+}
+
+.eventsListCls{
+        border-bottom: 1px solid black;;
+}
+
+.x-list {
+        background: none !important;
+}
+
+.reoccuringDivCls{
+        color:#999;
+        margin-left:8px;
+        float:left;
+        width:100%;
+}
+
+/*		Events View css Ends*/
+/*		Event Details Notes textArea css added by Sandip Lipane on 2 dec. 2013 Block Start*/
+#eventDetailsNoteFieldId{
+    width:90%;
+}
+#eventDetailsNoteFieldId .x-component-outer .x-field-input textarea.x-input-text{
+    width: 100% !important;
+    font-size: 15px !important;
+}
+/*		Event Details Notes textArea css added by Sandip Lipane on 2 dec. 2013 Block Ends*/
+
+/* Event Wall css */
+.messagesListCls .x-list-normal .x-list-item.x-list-item-tpl, .x-list-normal .x-list-item .x-dock-horizontal{
+   border: none;
+}
+
+.messagesListCls .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item.x-item-selected.x-list-item-tpl{
+    background: none !important;
+    border-top: none !important;
+}
+
+.messageFont{
+    font-size: 15px;
+    font-weight:normal;
+    text-shadow:none;
+}
+
+.row{
+    width:96%;
+    padding:5px 20px;
+    display:block;
+    position:relative;
+}
+
+.message_left{
+    float:left;
+    text-align:left;
+}
+.message_right
+{
+    float:right;
+    text-align:right;
+}
+
+.message_box{
+    padding: 10px;
+    min-height:20px;
+    border: 1px solid;
+    border-color: #c2cadb #bbc5d6 #b7c0cd;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+.message_left .message_box{
+    float:left;
+    background: #f3f6fa;
+}
+.message_right .message_box{
+    float:right;
+    text-align:left;
+    background: #d0e69d;
+}
+.messenger_name{
+    font-weight: bold;font-size: 15px;display: block;
+}
+.message_left .message_box .messenger_name{
+    color: coral;
+}
+.message_right .message_box .messenger_name{
+    color: cornflowerblue;
+}
+
+.message{
+    font-size:14px;
+    color: #444;
+}
+.message_time{
+    font-size: 12px;
+    display: block;
+    color: #666;
+    text-align: right;
+}
+.disabledSendBtn,.disabledSendBtn:hover,.disabledSendBtn:active{
+    background: #a0c84a !important; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a0c84a 0%, #83b621 50%, #518e00 100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0c84a), color-stop(50%,#83b621), color-stop(100%,#518e00)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important;/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important; /* IE10+ */
+    background: linear-gradient(to bottom,  #a0c84a 0%,#83b621 50%,#518e00 100%) !important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0c84a', endColorstr='#518e00',GradientType=0 ) !important; /* IE6-9 */
+}
+
+.bubbleRight
+{
+ position: relative;
+}
+
+.bubbleRight:after
+{
+ content: "";
+ position: absolute;
+ top: 7px;
+ right: -9px;
+ border-style: solid;
+ border-width: 10px 0 7px 10px;
+ border-color: transparent #d0e69d;
+ display: block;
+ width: 0;
+ z-index: 1;
+}
+
+.bubbleLeft
+{
+ position: relative;
+}
+
+.bubbleLeft:after
+{
+ content: "";
+ position: absolute;
+ top: 7px;
+ left: -9px;
+ border-style: solid;
+ border-width: 10px 10px 10px 0;
+ border-color: transparent #f3f6fa;
+ display: block;
+ width: 0;
+ z-index: 1;
+}
+/* Event Wall css end */
+
+/* InviteOthers View Css start */
+.notAnsweredUserCls{
+    width: 100%;
+    padding: 12px 5px;
+    background: #95CFFA;
+    color: black;
+    border: 1px solid #38A5FC;
+    border-radius: 5px;
+}
+
+.acceptedUserCls{
+    width: 100%;
+    padding: 12px 5px;
+    background: #84D584;
+    color: black;
+    border: 1px solid #31A22C;
+    border-radius: 5px;
+}
+
+.declinedUserCls {
+    width: 100%;
+    padding: 12px 5px;
+    background: #EE7F7F;
+    color: black;
+    border: 1px solid #F34545;
+    border-radius: 5px;
+}
+
+.notRegisteredUserCls {
+    width: 100%;
+    padding: 12px 5px;
+    background: #C4C4C4;
+    color: black;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+/* Added By Sandip Lipane for setting the width of feedback textarea */
+#feedbackMessageTextAreaId .x-component-outer .x-field-input textarea.x-input-text{
+        color:#fff !important;
+        background:#2f3135 url('../images/black_btn_bg.png') repeat-x !important;
+        -webkit-text-fill-color:#FFF !important;
+        width:100% !important;
+        padding: 10px;
+        line-height: 1.5em;
+        overflow-y: scroll;
+}
+
+.hideBottomBar{
+        visibility: hidden !important;
+}
+/* InviteOthers View Css start */
+
+/*
+*:focus, *:active{border:1px solid #fff !important;} */
+/* By Chandan on 12 Dec*/
+.buttonCls {
+         float: left;
+         background-size:36px;
+         background-position:center center;
+         background-repeat:no-repeat;
+         background-image: url("../images/chat.png");
+         height: 36px;
+         float:left;
+         margin-top: 15px;
+         white-space: nowrap;
+         margin-bottom: 0px;
+         margin-bottom: 0px;
+         cursor:pointer;
+         min-width:32px;
+}
+
+.listPanelMarginTop{
+        margin-top:60%;
+}
+/*** Overwritten for location pop up window by Sandip ***/
+.gm-style .gm-style-iw div {
+    font-weight: bold !important;
+    color:#333 !important;
+    text-shadow:none !important;
+    height: auto !important;
+}
+/* changes by Pooja on 18 Dec 2013 */
+.wallMessageListPressedCls{
+    background:none !important;
+}
+/******************added by Vivek Sahu for New eventdetails screen on 17/12/13*******************/
+
+.eventTimeIconCls{
+         background: url("../images/time.png") !important;
+         background-size: 50px 40px !important;
+         background-repeat: no-repeat !important;
+         background-position: left!important;
+}
+.eventReoccuringIconCls{
+         background: url("../images/repeat_icon.png") !important;
+         background-size: 100% 100% !important;
+         background-repeat: no-repeat !important;
+         background-position: left!important;
+}
+
+.wallIconCls{
+         background: url("../images/chat.png") !important;
+         background-size: 50px 40px !important;
+         background-repeat: no-repeat !important;
+         background-position: left!important;
+}
+.wallIconCls:hover,.wallIconCls:active{
+         background: url("../images/chat_pressed.png") !important;
+         background-size: 50px 40px !important;
+         background-repeat: no-repeat !important;
+         background-position: left!important;
+}
+.locationIconCls{
+         background: url("../images/location.png") !important;
+         background-size: 50px 40px !important;
+         background-repeat: no-repeat !important;
+         background-position: left!important;
+}
+.locationIconCls:hover,.locationIconCls:active{
+         background: url("../images/location_pressed.png") !important;
+         background-size: 50px 40px !important;
+         background-repeat: no-repeat !important;
+         background-position: left!important;
+}
+
+.locationLabelCls .x-innerhtml {
+         text-overflow: ellipsis !important;
+         overflow: hidden !important;
+         white-space: nowrap;
+}
+.detailsLabelsCls{
+    text-align:left;
+    font-weight:bold;
+    margin-right:4%;
+}
+
+.marginBottom15pxCls{
+    margin-bottom: 15px;
+}
+/**** Added by SL for wallNotificationSettingView screen's Setting button on 24th Dec. 2013 ***/
+.notificationOnOffButtonCls{
+
+   background-image:url('../images/wall_setting.png');
+   /*background-repeat: no-repeat;*/
+   width: 1.9em !important;
+   height: 2em !important;
+   /*background-position:center left;*/
+}
